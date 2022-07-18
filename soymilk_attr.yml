@@ -1,0 +1,40 @@
+product:
+    css: div.centerColAlign
+    xpath: null
+    type: Text
+    children:
+        flavor:
+            css: tr.a-spacing-small.po-flavor>td.a-span9
+            xpath: null
+            type: Text
+        brand:
+            css: tr.a-spacing-small.po-brand>td.a-span9
+            xpath: null
+            type: Text
+        alergeninfo:
+            css: tr.a-spacing-small.po-allergen_information>td.a-span9
+            xpath: null
+            type: Text
+        diet_type:
+            css: span.a-size-base.a-color-base._cse-dietary-information-logo-card_style_dilText__1iIqY
+            xpath: null
+            type: Text
+comments:
+    css: 'div.a-row div.a-section div.a-section div.a-row div.a-section'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        review_title:
+            css: a.a-size-base.a-link-normal.review-title.a-color-base.review-title-content.a-text-bold
+            xpath: null
+            multiple: true
+            type: Text
+        reviewerrating:
+            css: i.a-icon.a-icon-star.a-star-5.review-rating
+            xpath: null
+            type: Text
+        reviewdata:
+            css: div.a-row.a-spacing-small.review-data
+            xpath: null
+            type: Text

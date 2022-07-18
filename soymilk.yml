@@ -1,0 +1,30 @@
+product:
+    css: 'div.sg-col-4-of-12:nth-of-type(n+3)'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        title:
+            css: 'div h2'
+            xpath: null
+            type: Text
+        rating:
+            css: 'a i'
+            xpath: null
+            type: Text
+        url:
+            css: a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style
+            xpath: null
+            type: Link
+        price:
+            css: span.a-price
+            xpath: null
+            type: Text
+        number_of_reviews:
+            css: span.a-size-base.s-underline-text
+            xpath: null
+            type: Text
+        quantity:
+            css: div.a-row.a-spacing-top-micro.a-color-base
+            xpath: null
+            type: Text
